@@ -1,0 +1,10 @@
+CHANGELOG
+
+Versión 0.1.1:
+	Cambiado pin voltaje -> de A1 a A2
+	Tensión calibrada
+	Corriente calibrada (PERO MEJORABLE, MUCHO RUIDO!)
+	Añadida definición "muestras" para el nº de muestras a tomar
+	La carga se detiene cuando la corriente es pequeña O SI LA TENSIÓN LLEGA A 4.2 (AÑADIDO)
+	Añadida definición "seconds_to_log". Se ha cambiado la toma de logs en la tarjeta SD de 1s a 5s. Para cambiarlo, modificar "seconds_to_log".
+	Ahora, al pulsar el botón central, se cancela la tarea actual (carga, descarga o ciclo).
